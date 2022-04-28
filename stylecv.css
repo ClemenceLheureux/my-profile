@@ -1,0 +1,298 @@
+
+
+*{
+	font-family: Avenir, sans serif;
+	padding: 0px;
+	margin:5px auto;
+	text-align: justify;
+	box-sizing: border-box;
+	align-content: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+footer{
+	padding-bottom: 30px;
+}
+
+body{
+background: #ededed
+}
+
+p{
+	font-size: 1em;
+	line-height: 1,5em;
+}
+
+a{
+	text-decoration: none;
+	color: #000
+}
+
+h1 {
+	color: black;
+}
+
+section{
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 10px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px #bbb;
+	background-color: #fff
+}
+
+
+section h2{
+	margin: 20px;
+	width: 90%;
+	padding: 20px;
+}
+
+section > div {
+	width: 90%;
+}
+
+header h1{
+	font-family: futura;
+	color: #ffa500;
+	text-align: center;
+}
+
+.interet img{
+	width: 150px;
+	height: 150px;
+	align-content: center;
+}
+
+.interet img{
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding-top: 10px
+}
+
+.interet figcaption{
+	font-size: 30px;
+	text-align: center;
+}
+
+.interet p{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.little-cards{
+	margin: 8px;
+	flex-grow: 1;
+}
+
+.little-cards img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.global-cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+
+.Formation-images{
+	margin: 8px;
+	flex-grow: 1;
+}
+
+.Formation-images img{
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 0px;
+
+}
+
+.Formation{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	padding: 10px;
+	margin-left: : 10px;
+}
+
+.Formation-textes{
+	margin-right: 40px;
+}
+
+
+.photo-profil{
+	text-align: center;
+}
+
+.photo-profil img{
+	width: 160px;
+	height: 150px;
+	border: 3px solid #fff;
+	box-shadow: 0px 0px 10px #777;
+	border-radius: 100px;
+	margin-top: -20px;
+}
+
+
+.info a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #ddd;
+    background-color: #EA2;
+    box-shadow: 0px 0px 10px #ddd;
+    border-radius: 5px;
+}
+
+.Formation-logo img{
+width: 150px;
+height: 150px;
+}
+
+.Formation{
+	display: flex;
+	flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.Formation-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.Formation-logo{
+    flex: 0 0 20%;
+    max-width: 100px;
+}
+.Formation-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+
+.Formation h3{
+    font-size:  1.2em;
+}
+.Formation h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+
+.experiences-logo img{
+width: 150px;
+height: 150px;
+
+}
+
+.experiences img{
+	width: 60px;
+	height: 80px;
+	flex: 0 0 100%;
+    max-width: 100px;
+}
+
+
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+.experiences{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.experiences-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.experiences-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.experiences-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.experiences img{
+    width: 100%;
+}
+.experiences h3{
+    font-size:  1.2em;
+}
+.experiences h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+h1{
+	font-size: 50px;
+	color: rgb(225, 225, 225)
+}
+
+h2{
+	font-size: 35px;
+	color: rgb(236, 37, 90)
+	font : Chivo;
+}
+
+
+
+
+
+
+.intro{
+	color: white;
+	background-color: rgb(30, 30, 30);
+	display:block;
+	line-height: 50px
+	width:100px;
+	vertical-align: middle;
+	text-align:center;
+}
+
+.linkedin{
+	color: white;
+	background-color: blue;
+	display:block;
+	line-height: 50px
+	width:150px;
+	vertical-align: middle;
+	text-align:center;
+}
+
+.linkedin{
+	background-color: rgb(236, 37, 90);
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.linkedin:hover{
+	background-color: rgb(200, 10, 100);
+	color:white;
